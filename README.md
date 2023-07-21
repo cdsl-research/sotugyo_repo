@@ -12,5 +12,6 @@ deploymentのマニフェストファイルである．Podの数を管理する�
 servceのマニフェストファイルである．Podの公開・接続の方法を管理する．
 
 ## 使用方法
-applyする．
+以下のコマンドを打つ．
+```kubectl apply -f ./nginx-configmap/*```
 ＊プロキシ先のWebサーバがなければ正常に動作しない．
