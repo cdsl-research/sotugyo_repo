@@ -13,7 +13,7 @@ servceのマニフェストファイルである．Podの公開・接続の方�
 
 ## 使用方法
 以下のコマンドを打つ．
-
-```kubectl apply -f ./nginx-configmap/*```
-
+```
+kubectl apply -f ./nginx-configmap/*
+```
 ＊プロキシ先のWebサーバがなければ正常に動作しない．
